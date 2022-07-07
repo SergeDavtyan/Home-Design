@@ -1,0 +1,83 @@
+.header {
+  border-bottom: 1px solid #000;
+  margin-bottom: 10px;
+  background: #fff;
+  z-index: 10;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 30px 10px;
+}
+
+.header .container .logo {
+  font-size: 17px;
+}
+
+.header .container .logo a {
+  color: #000;
+}
+
+.header .container nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .container nav ul li {
+  font-size: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.header .container nav ul li a {
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #474747;
+}
+
+.header .container nav ul li a svg {
+  font-size: 19px;
+  color: #000;
+}
+
+.header .container nav ul li:last-child {
+  margin-right: 0;
+}
+
+.header .container nav ul li:last-child a:last-child {
+  margin-right: 0;
+}
+
+.header .container nav ul li:last-child a:last-child svg {
+  font-size: 23px;
+}
+/*# sourceMappingURL=Header.css.map */

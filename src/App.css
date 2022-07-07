@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+  outline: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+.borpad {
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+}

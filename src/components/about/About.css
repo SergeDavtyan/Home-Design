@@ -1,0 +1,44 @@
+.about {
+  padding-bottom: 100px;
+}
+
+.about h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: lighter;
+  color: #474747;
+}
+
+.about .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 60px;
+}
+
+.about .flex .left {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.about .flex .left p {
+  line-height: 22px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.about .flex .left p:last-child {
+  margin-bottom: 0;
+}
+
+.about .flex .right {
+  width: 50%;
+}
+
+.about .flex .right img {
+  width: 100%;
+}
+/*# sourceMappingURL=About.css.map */

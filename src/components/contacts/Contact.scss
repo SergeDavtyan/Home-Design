@@ -1,0 +1,95 @@
+.contacts {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    >h3 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 17px;
+        font-weight: lighter;
+        color: #474747;
+    }
+    .subtitle {
+        text-align: center;
+        max-width: 315px;
+        margin: 30px auto 20px;
+        font-size: 12px;
+    }
+    form {
+        width: 100%;
+        max-width: 330px;
+        box-shadow: -1px 0px 4px rgba(0,0,0,.2);
+        padding: 10px;
+        label {
+            display: block;
+            margin-bottom: 20px;
+            p {
+                font-size: 14px;
+                margin-bottom: 5px;
+            }
+            input {
+                width: 100%;
+                height: 35px;
+                padding: 0 10px;
+            }
+            textarea {
+                height: 70px;
+                width: 100%;
+                padding: 10px;
+            }
+            &:last-child {
+                margin-bottom: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    }
+    .info {
+        font-size: 15px;
+        margin-top: 70px;
+        h3 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        p {
+            width: 200px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+// Update Button
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: fit-content;
+}
+
+.btn {
+    padding: 7px 20px;
+    background: #000;
+    color: #fff;
+    border: none;
+    &.send {
+        width: 114px;
+        margin-top: 30px;
+        text-transform: uppercase;
+    }
+}
+
+.upload-btn-wrapper input[type=file] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.upload-btn-wrapper input::-webkit-file-upload-button {
+    cursor: pointer;
+}

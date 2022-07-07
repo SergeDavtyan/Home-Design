@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACT,QAAQ,EAAE,MAAM;EAChB,aAAa,EAAE,cAAc;EAC7B,cAAc,EAAE,IAAI;CAWvB;;AAdD,AAII,YAJQ,CAIR,WAAW,CAAC;EACR,MAAM,EAAE,mBAAmB;CAC9B;;AANL,AASQ,YATI,CAQR,KAAK,CACD,GAAG,CAAC;EACA,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,kBAAkB;CAC7B",
+    "sources": [
+        "Slider.scss"
+    ],
+    "names": [],
+    "file": "Slider.css"
+}
