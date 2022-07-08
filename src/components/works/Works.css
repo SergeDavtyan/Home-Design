@@ -1,3 +1,7 @@
+.works {
+  min-height: calc(100vh - 83px);
+}
+
 .works .work-list {
   display: -webkit-box;
   display: -ms-flexbox;

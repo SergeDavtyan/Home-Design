@@ -96,7 +96,7 @@ const Works = () => {
   }, [])
 
   // MENU STYLE START
-  const handlerMenu = (e,i) => {
+  const handlerMenu = (i) => {
     list.map(f => f.isActive = false)
     list[i].isActive = true
     setList(list)
@@ -108,7 +108,7 @@ const Works = () => {
   const listItem = list.map((e,i) => {
     return <li onClick={r => {
       handleFilter(r)
-      handlerMenu(r,i)
+      handlerMenu(i)
     }} className={e.isActive ? 'work-list__item active': 'work-list__item'} key={i}>{e.text}</li>
   })
 

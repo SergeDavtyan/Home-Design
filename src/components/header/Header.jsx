@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import { BsBehance } from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
+import { MdMenu } from 'react-icons/md';
 import "./Header.css";
 
 const Header = () => {
@@ -26,6 +27,8 @@ const Header = () => {
                 </li>
             </ul>
         </nav>
+
+        <MdMenu />
 
         </div>
 
